@@ -5,19 +5,19 @@ import java.awt.*;
 
 public class GameWin extends JDialog{
     Point p;
-    JLabel message=new JLabel();
+    JLabel masseage=new JLabel();
     
     GameWin(String winner,Point p){
         this.p=p;
-        message.setText("          "+winner+" Wins!");
+        masseage.setText("          "+winner+" Wins!");
         setupGUI();
 	}
 
 	private void setupGUI()
 	{
-        new PlaySound("./sounds//Win.wav").start();
-        message.setFont(new Font("dialog",Font.BOLD,16));
-        add(message);
+        new PlaySound("src//sounds//Win.wav").start();
+        masseage.setFont(new Font("dialog",Font.BOLD,16));
+        add(masseage);
 
         setAlwaysOnTop(true);
         setLocation((int)p.getX()+100,(int)p.getY()+200);

@@ -1,7 +1,6 @@
 package checkers;
 
 import javax.swing.*;
-
 import java.io.*;
 import java.awt.*;
 
@@ -19,7 +18,6 @@ public class Help extends JDialog {
         txt.setLineWrap(true);
         txt.setWrapStyleWord(true);
         txt.setFont(new Font("Dialog",Font.PLAIN,14));
-        txt.setMargin(new Insets(5,15,0,15));
         hlp.getHorizontalScrollBar().setEnabled(false);
         addText();        
         add(hlp);
@@ -37,7 +35,7 @@ public class Help extends JDialog {
     private void addText() {
         String str;
         try {
-            BufferedReader b=new BufferedReader(new FileReader(new File("guidance//HowToPlay")));
+            BufferedReader b=new BufferedReader(new FileReader(new File("src//guidance//HowToPlay.is")));
             try {
                 while((str=b.readLine())!=null)
                     txt.append(str+"\n");
