@@ -1,5 +1,30 @@
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc enim lorem, sodales vel ligula quis, aliquet ultrices urna. Vestibulum volutpat non lorem ac volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In molestie euismod nisl, vitae consequat lorem fringilla nec. Sed sed dolor lorem. Nulla vestibulum elit elit, vitae congue felis interdum auctor. Nulla euismod quis urna nec tincidunt. Duis bibendum convallis ipsum non iaculis. Maecenas ut ornare metus. Phasellus vitae hendrerit magna. Morbi sapien orci, hendrerit sit amet venenatis vel, placerat at enim. Quisque ullamcorper convallis libero, a ullamcorper magna dapibus vel. In a velit tempor, rutrum lacus sed, interdum arcu.
+**How To Play: **
+**  Checkers   **
 
-Aliquam ex justo, viverra consequat purus in, rutrum malesuada ligula. Etiam viverra ex et ligula dapibus, quis congue purus ultrices. Sed elementum sodales risus, ac mollis dolor consequat sit amet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum congue elementum massa vel pulvinar. Quisque pulvinar purus eu convallis faucibus. In hac habitasse platea dictumst. Sed maximus sem ut efficitur elementum. Fusce laoreet laoreet nisi ac rhoncus. Aliquam maximus non ipsum eu volutpat. Donec aliquet vestibulum turpis at aliquet. Aliquam erat volutpat.
+*Overview*
+Checkers is a game played on a 64 square board, 32 are dark, 32 are light. It is a two player game where each player starts with 12 pieces (checkers), which are placed on the dark squares in the first 12 rows closest to the player. The object of the game is to capture all of the opponent's checkers, or position the pieces so the opponent has no available moves.
 
-Sed vitae ornare est. Ut fermentum nisi quis arcu egestas, imperdiet ultrices sapien sollicitudin. Sed elementum eget urna id hendrerit. Phasellus porta feugiat dui, a finibus nunc semper at. Phasellus ornare purus nulla, in accumsan nibh lacinia ut. Phasellus sit amet suscipit enim. Maecenas aliquam, est ut accumsan faucibus, tortor nibh mollis massa, ut mattis sapien massa quis leo. Duis ac tincidunt elit. Aliquam laoreet, leo ut mollis consequat, ligula purus consequat neque, et blandit augue eros in metus. Quisque felis velit, ornare in hendrerit a, maximus non odio. Praesent sagittis libero tellus, quis condimentum massa pretium vel.
+A checkers piece can only move one space diagonally forward. It is only able to move backwards once it becomes a King. They achieve King status once the piece reaches the opposite side of the board. If a jump is available, the player must take the jump. A jump occurs when one of the opponent's checkers is diagonally forward or diagonal next to one of the checkers pieces, with an empty space past them. The opponent's checkers is captured and removed from the board. If after a single jump, another jump is available, the checker must take that jump too. This can continue until there are no more jumps available. Both regular and King pieces must follow this rule. If more than one checkers piece is able to move at the start of the turn, the player has the option to decide which of the pieces they wish to move.
+
+
+*GamePlay*
+Once Checkers is opened, click on Start Game to begin game play. An image of a checkers piece with a simple legend of the pieces should be shown on the bottom. The user then has the option to click several other icons on the right. From top to bottom, they are listed below:
+-Help Button: It is an icon with a question mark. It allows the user to access this How To file. 
+-Mute Button: It is an icon with a speaker. It allows the user to toggle between sounds during game play, or muted. 
+-New Game Button: It allows the user to enter into a new game. It is accessible at all times.
+-Undo Button: It allows the user to undo the last move. It is only allowed if three moves have been made. 
+-Difficulty Level Drop Down: This allows the user to select the difficulty of the Computer opponent. It is only used when it is 1-Player against the computer.
+-Mode Radio Buttons: It allows the user to toggle between single and 2-Player (against another user). 
+
+*Single Player*
+If the user has selected Single Player, the user will be playing against a computer opponent. The player is yellow, and the computer is red. The yellow player moves first. After that movement, the red computer will move. 
+The game is played until a winner is declared, the user quits, the user selects new game, the user changes difficulty level, or the user changes to 2-player.
+
+*Two Player*
+If the user has selected 2-Player, the user will be playing against another user opponent. The player 1 is yellow, and the player 2 is red. The yellow player moves first. After player 1 moves, player 2 will move their red piece. 
+The game is played until a winner is declared, or either user quits, selects a new game, or changes it to 1-player.
+
+
+
+
+

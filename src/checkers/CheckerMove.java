@@ -28,7 +28,7 @@ public class CheckerMove {
     }
 
     /*
-    noMovesLeft return true if no more movents are left for the next player
+    noMovesLeft return true if no more movements are left for the next player
     else it returns false
     */
     static boolean noMovesLeft(int[][] board,int toMove)
@@ -170,7 +170,7 @@ public class CheckerMove {
                 int cap_j = (srtJ + endJ) / 2;
                 int cap_piece = board[cap_i][cap_j];
 
-                if (turn == Checkers.redNormal)         //when you try to cut a piece it should be a peice of opposite side.
+                if (turn == Checkers.redNormal)         //when you try to cut a piece it should be a piece of opposite side.
                                                           //otherwise it is an illegal move.
                 {
 					if (!(cap_piece == Checkers.yellowNormal ||
@@ -181,7 +181,7 @@ public class CheckerMove {
 					cap_piece == Checkers.redKing))
                     return illegalMove;
 
-				switch (piece)              //if u are going to cut a piece the move must have the length two
+				switch (piece)              //if you are going to cut a piece the move must have the length two
                 {
                 case Checkers.redNormal:
 					if (endJ - srtJ != 2)
@@ -255,7 +255,7 @@ public class CheckerMove {
                                   &&
                                   (board[i+2][j+2] == Checkers.empty))
                                   return true;
-                        // other posiible move direction
+                        // other possible move direction
                         if (i-2>-1 && j+2<8)        
                                 if ( (board[i-1][j+1] == Checkers.yellowNormal ||
                                 board[i-1][j+1] == Checkers.yellowKing)
@@ -347,7 +347,7 @@ public class CheckerMove {
 
         // canWalk() returns true if the piece on (i,j) can make a
         // legal non-capturing move
-        // Imporatant to see if the game is over
+        // Important to see if the game is over
         static boolean canWalk(int[][] board, int i, int j)
         {
                 switch ( board[i][j] )
